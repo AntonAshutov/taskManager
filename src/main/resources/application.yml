@@ -1,0 +1,14 @@
+
+logging:
+  level:
+    com.zaxxer.hikari.HikariConfig: DEBUG
+spring:
+  application:
+    name: taskManager
+
+  h2:
+    console:
+      enabled: true
+  datasource:
+    generate-unique-name: false
+    name: todo
